@@ -52,7 +52,7 @@ for file in $WORKING_ALL_DIR/*; do
       filename=$RANDOM.zip
             
       zip -jr $OUT_DIR/$filename.zip $WORKING_FILES_DIR/
-      echo "created $filename"
+      echo "created `pwd`/$OUT_DIR/$filename"
       
       rm $WORKING_FILES_DIR/*
       counter=0
